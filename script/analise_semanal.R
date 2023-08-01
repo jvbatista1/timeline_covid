@@ -217,7 +217,7 @@ graficobrasil <- dadosbrasil %>%
 #   filter(state == "SP")
 
 dadosestado <- dataset %>% 
-  filter(administrative_area_level_3 == "Belém")
+  filter(administrative_area_level_3 == "São Paulo")
 
 ##### onda 1
 division_of_waves1 <- dadosestado %>% 
